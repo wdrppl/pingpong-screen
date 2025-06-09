@@ -505,11 +505,23 @@ class _CoolguyScreenAState extends State<CoolguyScreenA> {
                     ),
                     CoolguyProfile(isVisible: isProfileExpanded),
                     SizedBox(height: 20),
-                    Text('Q1. 일하는 곳과 사는 곳이 어디세요?'),
+                    Text(
+                      'Q1. 일하는 곳과 사는 곳이 어디세요?',
+                      style: TextStyle(
+                        color: Colors.pink,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                     SizedBox(height: 10),
                     Row(
                       children: [
-                        Text('A1.'),
+                        Text(
+                          'A1.',
+                          style: TextStyle(
+                            color: Colors.blue,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                         SizedBox(width: 5),
                         Expanded(
                           child: TextFormField(
@@ -545,11 +557,23 @@ class _CoolguyScreenAState extends State<CoolguyScreenA> {
                       ],
                     ),
                     SizedBox(height: 10),
-                    Text('Q2. 선호하는 연락 주기와 스타일은 어떠세요?'),
+                    Text(
+                      'Q2. 선호하는 연락 주기와 스타일은 어떠세요?',
+                      style: TextStyle(
+                        color: Colors.pink,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                     SizedBox(height: 10),
                     Row(
                       children: [
-                        Text('A2.'),
+                        Text(
+                          'A2.',
+                          style: TextStyle(
+                            color: Colors.blue,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                         SizedBox(width: 5),
                         Expanded(
                           child: TextFormField(
@@ -585,11 +609,23 @@ class _CoolguyScreenAState extends State<CoolguyScreenA> {
                       ],
                     ),
                     SizedBox(height: 10),
-                    Text('Q3. 싸웠을 때 어떻게 해결하세요?'),
+                    Text(
+                      'Q3. 싸웠을 때 어떻게 해결하세요?',
+                      style: TextStyle(
+                        color: Colors.pink,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                     SizedBox(height: 10),
                     Row(
                       children: [
-                        Text('A3.'),
+                        Text(
+                          'A3.',
+                          style: TextStyle(
+                            color: Colors.blue,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                         SizedBox(width: 5),
                         Expanded(
                           child: TextFormField(
@@ -904,13 +940,25 @@ class _CoolguyScreenLastState extends State<CoolguyScreenLast> {
                         ),
                       ),
                     ),
-                    CoolguyProfile(isVisible: isProfileExpanded),
+                    CoolguyProfileLast(isVisible: isProfileExpanded),
                     SizedBox(height: 20),
-                    Text('Q1. 어떤 걸 전공하세요?'),
+                    Text(
+                      'Q1. 어떤 걸 전공하세요?',
+                      style: TextStyle(
+                        color: Colors.blue,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                     SizedBox(height: 10),
                     Row(
                       children: [
-                        Text('A1.'),
+                        Text(
+                          'A1.',
+                          style: TextStyle(
+                            color: Colors.pink,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                         SizedBox(width: 5),
                         Expanded(
                           child: Container(
@@ -940,11 +988,23 @@ class _CoolguyScreenLastState extends State<CoolguyScreenLast> {
                       ],
                     ),
                     SizedBox(height: 10),
-                    Text('Q2. 주말에 주로 뭐하세요?'),
+                    Text(
+                      'Q2. 주말에 주로 뭐하세요?',
+                      style: TextStyle(
+                        color: Colors.blue,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                     SizedBox(height: 10),
                     Row(
                       children: [
-                        Text('A2.'),
+                        Text(
+                          'A2.',
+                          style: TextStyle(
+                            color: Colors.pink,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                         SizedBox(width: 5),
                         Expanded(
                           child: Container(
@@ -974,11 +1034,23 @@ class _CoolguyScreenLastState extends State<CoolguyScreenLast> {
                       ],
                     ),
                     SizedBox(height: 10),
-                    Text('Q3. 좋아하는 가수가 있으신가요?'),
+                    Text(
+                      'Q3. 좋아하는 가수가 있으신가요?',
+                      style: TextStyle(
+                        color: Colors.blue,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                     SizedBox(height: 10),
                     Row(
                       children: [
-                        Text('A3.'),
+                        Text(
+                          'A3.',
+                          style: TextStyle(
+                            color: Colors.pink,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                         SizedBox(width: 5),
                         Expanded(
                           child: Container(
@@ -1041,46 +1113,6 @@ class _CoolguyScreenLastState extends State<CoolguyScreenLast> {
                         ],
                       ),
                     ),
-                    // SizedBox(height: 20),
-                    // GestureDetector(
-                    //   onTap: () {
-                    //     setState(() {
-                    //       isProfileExpanded = !isProfileExpanded;
-                    //     });
-                    //   },
-                    //   child: Container(
-                    //     height: 44,
-                    //     // width: 353,
-                    //     padding: EdgeInsets.symmetric(
-                    //       vertical: 10,
-                    //       horizontal: 20,
-                    //     ),
-                    //     decoration: BoxDecoration(
-                    //       color: Colors.blue.withValues(alpha: 0.8),
-                    //       borderRadius: BorderRadius.circular(8),
-                    //     ),
-                    //     child: Row(
-                    //       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    //       children: [
-                    //         Text(
-                    //           'Snowyoon님에게 보이는 나의 프로필',
-                    //           style: TextStyle(
-                    //             color: Colors.white,
-                    //             fontSize: 14,
-                    //             fontWeight: FontWeight.w600,
-                    //           ),
-                    //         ),
-                    //         Icon(
-                    //           isProfileExpanded
-                    //               ? Icons.expand_less
-                    //               : Icons.expand_more,
-                    //           color: Colors.white,
-                    //         ),
-                    //       ],
-                    //     ),
-                    //   ),
-                    // ),
-                    // CoolguyProfile(isVisible: isProfileExpanded),
                     SizedBox(height: 20),
                     GestureDetector(
                       onTap: () {},

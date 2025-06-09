@@ -423,11 +423,23 @@ class _SnowyoonScreenAState extends State<SnowyoonScreenA> {
                     ),
                     SnowyoonProfile(isVisible: isProfileExpanded),
                     SizedBox(height: 20),
-                    Text('Q1. 어떤 걸 전공하세요?'),
+                    Text(
+                      'Q1. 어떤 걸 전공하세요?',
+                      style: TextStyle(
+                        color: Colors.blue,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                     SizedBox(height: 10),
                     Row(
                       children: [
-                        Text('A1.'),
+                        Text(
+                          'A1.',
+                          style: TextStyle(
+                            color: Colors.pink,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                         SizedBox(width: 5),
                         Expanded(
                           child: TextFormField(
@@ -463,11 +475,23 @@ class _SnowyoonScreenAState extends State<SnowyoonScreenA> {
                       ],
                     ),
                     SizedBox(height: 10),
-                    Text('Q2. 주말에 주로 뭐하세요?'),
+                    Text(
+                      'Q2. 주말에 주로 뭐하세요?',
+                      style: TextStyle(
+                        color: Colors.blue,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                     SizedBox(height: 10),
                     Row(
                       children: [
-                        Text('A2.'),
+                        Text(
+                          'A2.',
+                          style: TextStyle(
+                            color: Colors.pink,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                         SizedBox(width: 5),
                         Expanded(
                           child: TextFormField(
@@ -503,11 +527,23 @@ class _SnowyoonScreenAState extends State<SnowyoonScreenA> {
                       ],
                     ),
                     SizedBox(height: 10),
-                    Text('Q3. 좋아하는 가수가 있으신가요?'),
+                    Text(
+                      'Q3. 좋아하는 가수가 있으신가요?',
+                      style: TextStyle(
+                        color: Colors.blue,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                     SizedBox(height: 10),
                     Row(
                       children: [
-                        Text('A3.'),
+                        Text(
+                          'A3.',
+                          style: TextStyle(
+                            color: Colors.pink,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                         SizedBox(width: 5),
                         Expanded(
                           child: TextFormField(
@@ -688,7 +724,7 @@ class _SnowyoonScreenLastState extends State<SnowyoonScreenLast> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("설윤이 답변을 작성할 때 보는 화면")),
+      appBar: AppBar(title: Text("설윤이 시원의 답을 볼 때의 화면")),
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
@@ -781,13 +817,25 @@ class _SnowyoonScreenLastState extends State<SnowyoonScreenLast> {
                         ),
                       ),
                     ),
-                    SnowyoonProfile(isVisible: isProfileExpanded),
+                    SnowyoonProfileLast(isVisible: isProfileExpanded),
                     SizedBox(height: 20),
-                    Text('Q1. 일하는 곳과 사는 곳이 어디세요?'),
+                    Text(
+                      'Q1. 일하는 곳과 사는 곳이 어디세요?',
+                      style: TextStyle(
+                        color: Colors.pink,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                     SizedBox(height: 10),
                     Row(
                       children: [
-                        Text('A1.'),
+                        Text(
+                          'A1.',
+                          style: TextStyle(
+                            color: Colors.blue,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                         SizedBox(width: 5),
                         Expanded(
                           child: Container(
@@ -817,11 +865,23 @@ class _SnowyoonScreenLastState extends State<SnowyoonScreenLast> {
                       ],
                     ),
                     SizedBox(height: 10),
-                    Text('Q2. 선호하는 연락 주기와 스타일은 어떠세요?'),
+                    Text(
+                      'Q2. 선호하는 연락 주기와 스타일은 어떠세요?',
+                      style: TextStyle(
+                        color: Colors.pink,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                     SizedBox(height: 10),
                     Row(
                       children: [
-                        Text('A2.'),
+                        Text(
+                          'A2.',
+                          style: TextStyle(
+                            color: Colors.blue,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                         SizedBox(width: 5),
                         Expanded(
                           child: Container(
@@ -851,11 +911,23 @@ class _SnowyoonScreenLastState extends State<SnowyoonScreenLast> {
                       ],
                     ),
                     SizedBox(height: 10),
-                    Text('Q3. 싸웠을 때 어떻게 해결하세요?'),
+                    Text(
+                      'Q3. 싸웠을 때 어떻게 해결하세요?',
+                      style: TextStyle(
+                        color: Colors.pink,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                     SizedBox(height: 10),
                     Row(
                       children: [
-                        Text('A3.'),
+                        Text(
+                          'A3.',
+                          style: TextStyle(
+                            color: Colors.blue,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                         SizedBox(width: 5),
                         Expanded(
                           child: Container(
