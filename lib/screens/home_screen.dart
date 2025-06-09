@@ -58,7 +58,7 @@ class HomeScreen extends StatelessWidget {
                       child: const Padding(
                         padding: EdgeInsets.symmetric(horizontal: 20),
                         child: Text(
-                          'Snowyoon! Coolguy님에게 궁금한 점을 물어보세요\n(설윤이 질문을 작성할 때 보는 화면)',
+                          'Snowyoon님! Coolguy님에게 궁금한 점을 물어보세요\n(설윤이 질문을 작성할 때 보는 화면)',
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 14,
