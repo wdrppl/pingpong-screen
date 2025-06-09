@@ -18,8 +18,10 @@ class MyApp extends StatelessWidget {
         '/': (context) => const HomeScreen(),
         '/coolguy1': (context) => const CoolguyScreenQ(),
         '/coolguy2': (context) => const CoolguyScreenA(),
+        '/coolguy3': (context) => const CoolguyScreenLast(),
         '/snowyoon1': (context) => const SnowyoonScreenQ(),
         '/snowyoon2': (context) => const SnowyoonScreenA(),
+        '/snowyoon3': (context) => const SnowyoonScreenLast(),
       },
     );
   }

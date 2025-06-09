@@ -99,16 +99,18 @@ class SnowyoonProfile extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20),
                   child: Text(
-                    'Snowyoon님에게 보이는 나의 프로필',
+                    'Coolguy님에게 보이는 나의 프로필',
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   ),
                 ),
                 Row(
                   children: [
                     SizedBox(width: 20),
-                    ProfileChip(label: '175 이상'),
+                    ProfileChip(label: '168'),
                     SizedBox(width: 5),
-                    ProfileChip(label: '94-98년생'),
+                    ProfileChip(label: '96년생'),
+                    SizedBox(width: 5),
+                    ProfileChip(label: '사슴상'),
                     SizedBox(width: 5),
                     ProfileChip(label: '직장인'),
                   ],
@@ -116,9 +118,23 @@ class SnowyoonProfile extends StatelessWidget {
                 Row(
                   children: [
                     SizedBox(width: 20),
-                    ProfileChip(label: '비흡연'),
+                    ProfileChip(label: '장난많은'),
+                    SizedBox(width: 5),
+                    ProfileChip(label: '열정적인'),
+                    SizedBox(width: 5),
+                    ProfileChip(label: '워커홀릭'),
                     SizedBox(width: 5),
                     ProfileChip(label: '즐길 줄 아는'),
+                  ],
+                ),
+                Row(
+                  children: [
+                    SizedBox(width: 20),
+                    ProfileChip(label: '마른 체형'),
+                    SizedBox(width: 5),
+                    ProfileChip(label: '열정적인'),
+                    SizedBox(width: 5),
+                    ProfileChip(label: 'ISTP'),
                   ],
                 ),
               ],
