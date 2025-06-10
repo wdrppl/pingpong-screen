@@ -14,7 +14,12 @@ class _SnowyoonScreenQState extends State<SnowyoonScreenQ> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("설윤이 질문을 작성할 때 보는 화면")),
+      appBar: AppBar(
+        title: Text(
+          "설윤이 질문을 작성할 때 보는 화면",
+          style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+        ),
+      ),
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
@@ -93,7 +98,7 @@ class _SnowyoonScreenQState extends State<SnowyoonScreenQ> {
                               'Coolguy님에게 보이는 나의 프로필',
                               style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 14,
+                                fontSize: 12,
                                 fontWeight: FontWeight.w600,
                               ),
                             ),
@@ -256,30 +261,6 @@ class _SnowyoonScreenQState extends State<SnowyoonScreenQ> {
                         ],
                       ),
                     ),
-                    SizedBox(height: 20),
-                    // GestureDetector(
-                    //   onTap: () {},
-                    //   child: Container(
-                    //     height: 44,
-                    //     padding: EdgeInsets.symmetric(
-                    //       vertical: 10,
-                    //       horizontal: 20,
-                    //     ),
-                    //     decoration: BoxDecoration(
-                    //       color: Colors.pink.withValues(alpha: 0.8),
-                    //       borderRadius: BorderRadius.circular(8),
-                    //     ),
-                    //     child: Text(
-                    //       'Coolguy님의 이상형 카드(필요할까??)',
-                    //       style: TextStyle(
-                    //         color: Colors.white,
-                    //         fontSize: 14,
-                    //         fontWeight: FontWeight.w600,
-                    //       ),
-                    //     ),
-                    //   ),
-                    // ),
-                    // SizedBox(height: 30),
                     SizedBox(height: 100),
                   ],
                 ),
@@ -328,7 +309,12 @@ class _SnowyoonScreenAState extends State<SnowyoonScreenA> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("설윤이 답변을 작성할 때 보는 화면")),
+      appBar: AppBar(
+        title: Text(
+          "설윤이 답변을 작성할 때 보는 화면",
+          style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+        ),
+      ),
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
@@ -407,7 +393,7 @@ class _SnowyoonScreenAState extends State<SnowyoonScreenA> {
                               'Coolguy님에게 보이는 나의 프로필',
                               style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 14,
+                                fontSize: 12,
                                 fontWeight: FontWeight.w600,
                               ),
                             ),
@@ -612,70 +598,6 @@ class _SnowyoonScreenAState extends State<SnowyoonScreenA> {
                         ],
                       ),
                     ),
-                    // SizedBox(height: 20),
-                    // GestureDetector(
-                    //   onTap: () {
-                    //     setState(() {
-                    //       isProfileExpanded = !isProfileExpanded;
-                    //     });
-                    //   },
-                    //   child: Container(
-                    //     height: 44,
-                    //     // width: 353,
-                    //     padding: EdgeInsets.symmetric(
-                    //       vertical: 10,
-                    //       horizontal: 20,
-                    //     ),
-                    //     decoration: BoxDecoration(
-                    //       color: Colors.pink.withValues(alpha: 0.8),
-                    //       borderRadius: BorderRadius.circular(8),
-                    //     ),
-                    //     child: Row(
-                    //       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    //       children: [
-                    //         Text(
-                    //           'Snowyoon님에게 보이는 나의 프로필',
-                    //           style: TextStyle(
-                    //             color: Colors.white,
-                    //             fontSize: 14,
-                    //             fontWeight: FontWeight.w600,
-                    //           ),
-                    //         ),
-                    //         Icon(
-                    //           isProfileExpanded
-                    //               ? Icons.expand_less
-                    //               : Icons.expand_more,
-                    //           color: Colors.white,
-                    //         ),
-                    //       ],
-                    //     ),
-                    //   ),
-                    // ),
-                    // SnowyoonProfile(isVisible: isProfileExpanded),
-                    SizedBox(height: 20),
-                    // GestureDetector(
-                    //   onTap: () {},
-                    //   child: Container(
-                    //     height: 44,
-                    //     padding: EdgeInsets.symmetric(
-                    //       vertical: 10,
-                    //       horizontal: 20,
-                    //     ),
-                    //     decoration: BoxDecoration(
-                    //       color: Colors.pink.withValues(alpha: 0.8),
-                    //       borderRadius: BorderRadius.circular(8),
-                    //     ),
-                    //     child: Text(
-                    //       'Snowyoon님의 이상형 카드(필요할까??)',
-                    //       style: TextStyle(
-                    //         color: Colors.white,
-                    //         fontSize: 14,
-                    //         fontWeight: FontWeight.w600,
-                    //       ),
-                    //     ),
-                    //   ),
-                    // ),
-                    // SizedBox(height: 30),
                     SizedBox(height: 100),
                   ],
                 ),
@@ -724,7 +646,12 @@ class _SnowyoonScreenLastState extends State<SnowyoonScreenLast> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("설윤이 시원의 답을 볼 때의 화면")),
+      appBar: AppBar(
+        title: Text(
+          "설윤이 시원의 답변을 볼 때의 화면",
+          style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+        ),
+      ),
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
@@ -803,7 +730,7 @@ class _SnowyoonScreenLastState extends State<SnowyoonScreenLast> {
                               'Coolguy님에게 보이는 나의 프로필',
                               style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 14,
+                                fontSize: 12,
                                 fontWeight: FontWeight.w600,
                               ),
                             ),
@@ -990,70 +917,6 @@ class _SnowyoonScreenLastState extends State<SnowyoonScreenLast> {
                         ],
                       ),
                     ),
-                    // SizedBox(height: 20),
-                    // GestureDetector(
-                    //   onTap: () {
-                    //     setState(() {
-                    //       isProfileExpanded = !isProfileExpanded;
-                    //     });
-                    //   },
-                    //   child: Container(
-                    //     height: 44,
-                    //     // width: 353,
-                    //     padding: EdgeInsets.symmetric(
-                    //       vertical: 10,
-                    //       horizontal: 20,
-                    //     ),
-                    //     decoration: BoxDecoration(
-                    //       color: Colors.pink.withValues(alpha: 0.8),
-                    //       borderRadius: BorderRadius.circular(8),
-                    //     ),
-                    //     child: Row(
-                    //       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    //       children: [
-                    //         Text(
-                    //           'Snowyoon님에게 보이는 나의 프로필',
-                    //           style: TextStyle(
-                    //             color: Colors.white,
-                    //             fontSize: 14,
-                    //             fontWeight: FontWeight.w600,
-                    //           ),
-                    //         ),
-                    //         Icon(
-                    //           isProfileExpanded
-                    //               ? Icons.expand_less
-                    //               : Icons.expand_more,
-                    //           color: Colors.white,
-                    //         ),
-                    //       ],
-                    //     ),
-                    //   ),
-                    // ),
-                    // SnowyoonProfile(isVisible: isProfileExpanded),
-                    SizedBox(height: 20),
-                    // GestureDetector(
-                    //   onTap: () {},
-                    //   child: Container(
-                    //     height: 44,
-                    //     padding: EdgeInsets.symmetric(
-                    //       vertical: 10,
-                    //       horizontal: 20,
-                    //     ),
-                    //     decoration: BoxDecoration(
-                    //       color: Colors.pink.withValues(alpha: 0.8),
-                    //       borderRadius: BorderRadius.circular(8),
-                    //     ),
-                    //     child: Text(
-                    //       'Snowyoon님의 이상형 카드(필요할까??)',
-                    //       style: TextStyle(
-                    //         color: Colors.white,
-                    //         fontSize: 14,
-                    //         fontWeight: FontWeight.w600,
-                    //       ),
-                    //     ),
-                    //   ),
-                    // ),
-                    // SizedBox(height: 30),
                     SizedBox(height: 100),
                   ],
                 ),

@@ -113,15 +113,13 @@ class SnowyoonProfile extends StatelessWidget {
                     ProfileChip(label: '열정적인'),
                     SizedBox(width: 5),
                     ProfileChip(label: '워커홀릭'),
-                    SizedBox(width: 5),
-                    ProfileChip(label: '즐길 줄 아는'),
                   ],
                 ),
                 Row(
                   children: [
                     ProfileChip(label: '마른 체형'),
                     SizedBox(width: 5),
-                    ProfileChip(label: '열정적인'),
+                    ProfileChip(label: '즐길 줄 아는'),
                     SizedBox(width: 5),
                     ProfileChip(label: 'ISTP'),
                   ],
@@ -129,29 +127,6 @@ class SnowyoonProfile extends StatelessWidget {
               ],
             ),
           ),
-        ),
-      ),
-    );
-  }
-}
-
-class ProfileChip extends StatelessWidget {
-  final String label;
-
-  const ProfileChip({required this.label, super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Chip(
-      labelPadding: EdgeInsets.symmetric(horizontal: 4),
-      label: Text(
-        label,
-        style: TextStyle(
-          color: Colors.black,
-          fontSize: 12,
-          fontFamily: 'Pretendard Variable',
-          fontWeight: FontWeight.w600,
-          height: 1.20,
         ),
       ),
     );
@@ -400,15 +375,13 @@ class SnowyoonProfileLast extends StatelessWidget {
                     ProfileChip(label: '열정적인'),
                     SizedBox(width: 5),
                     ProfileChip(label: '워커홀릭'),
-                    SizedBox(width: 5),
-                    ProfileChip(label: '즐길 줄 아는'),
                   ],
                 ),
                 Row(
                   children: [
                     ProfileChip(label: '마른 체형'),
                     SizedBox(width: 5),
-                    ProfileChip(label: '열정적인'),
+                    ProfileChip(label: '즐길 줄 아는'),
                     SizedBox(width: 5),
                     ProfileChip(label: 'ISTP'),
                   ],
@@ -545,6 +518,29 @@ class SnowyoonProfileLast extends StatelessWidget {
               ],
             ),
           ),
+        ),
+      ),
+    );
+  }
+}
+
+class ProfileChip extends StatelessWidget {
+  final String label;
+
+  const ProfileChip({required this.label, super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Chip(
+      labelPadding: EdgeInsets.symmetric(horizontal: 4),
+      label: Text(
+        label,
+        style: TextStyle(
+          color: Colors.black,
+          fontSize: 12,
+          fontFamily: 'Pretendard Variable',
+          fontWeight: FontWeight.w600,
+          height: 1.20,
         ),
       ),
     );

@@ -14,7 +14,12 @@ class _CoolguyScreenQState extends State<CoolguyScreenQ> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("시원이 질문을 작성할 때 보는 화면")),
+      appBar: AppBar(
+        title: Text(
+          "시원이 질문을 작성할 때 보는 화면",
+          style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+        ),
+      ),
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
@@ -61,15 +66,13 @@ class _CoolguyScreenQState extends State<CoolguyScreenQ> {
                         ProfileChip(label: '열정적인'),
                         SizedBox(width: 5),
                         ProfileChip(label: '워커홀릭'),
-                        SizedBox(width: 5),
-                        ProfileChip(label: '즐길 줄 아는'),
                       ],
                     ),
                     Row(
                       children: [
                         ProfileChip(label: '마른 체형'),
                         SizedBox(width: 5),
-                        ProfileChip(label: '열정적인'),
+                        ProfileChip(label: '즐길 줄 아는'),
                         SizedBox(width: 5),
                         ProfileChip(label: 'ISTP'),
                       ],
@@ -134,7 +137,7 @@ class _CoolguyScreenQState extends State<CoolguyScreenQ> {
                               'Snowyoon님에게 보이는 나의 프로필',
                               style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 14,
+                                fontSize: 12,
                                 fontWeight: FontWeight.w600,
                               ),
                             ),
@@ -314,7 +317,7 @@ class _CoolguyScreenQState extends State<CoolguyScreenQ> {
                           'Snowyoon님의 이상형 카드(필요할까??)',
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 14,
+                            fontSize: 12,
                             fontWeight: FontWeight.w600,
                           ),
                         ),
@@ -369,7 +372,12 @@ class _CoolguyScreenAState extends State<CoolguyScreenA> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("시원이 답변을 작성할 때 보는 화면")),
+      appBar: AppBar(
+        title: Text(
+          "시원이 답변을 작성할 때 보는 화면",
+          style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+        ),
+      ),
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
@@ -416,15 +424,13 @@ class _CoolguyScreenAState extends State<CoolguyScreenA> {
                         ProfileChip(label: '열정적인'),
                         SizedBox(width: 5),
                         ProfileChip(label: '워커홀릭'),
-                        SizedBox(width: 5),
-                        ProfileChip(label: '즐길 줄 아는'),
                       ],
                     ),
                     Row(
                       children: [
                         ProfileChip(label: '마른 체형'),
                         SizedBox(width: 5),
-                        ProfileChip(label: '열정적인'),
+                        ProfileChip(label: '즐길 줄 아는'),
                         SizedBox(width: 5),
                         ProfileChip(label: 'ISTP'),
                       ],
@@ -489,7 +495,7 @@ class _CoolguyScreenAState extends State<CoolguyScreenA> {
                               'Snowyoon님에게 보이는 나의 프로필',
                               style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 14,
+                                fontSize: 12,
                                 fontWeight: FontWeight.w600,
                               ),
                             ),
@@ -694,46 +700,6 @@ class _CoolguyScreenAState extends State<CoolguyScreenA> {
                         ],
                       ),
                     ),
-                    // SizedBox(height: 20),
-                    // GestureDetector(
-                    //   onTap: () {
-                    //     setState(() {
-                    //       isProfileExpanded = !isProfileExpanded;
-                    //     });
-                    //   },
-                    //   child: Container(
-                    //     height: 44,
-                    //     // width: 353,
-                    //     padding: EdgeInsets.symmetric(
-                    //       vertical: 10,
-                    //       horizontal: 20,
-                    //     ),
-                    //     decoration: BoxDecoration(
-                    //       color: Colors.blue.withValues(alpha: 0.8),
-                    //       borderRadius: BorderRadius.circular(8),
-                    //     ),
-                    //     child: Row(
-                    //       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    //       children: [
-                    //         Text(
-                    //           'Snowyoon님에게 보이는 나의 프로필',
-                    //           style: TextStyle(
-                    //             color: Colors.white,
-                    //             fontSize: 14,
-                    //             fontWeight: FontWeight.w600,
-                    //           ),
-                    //         ),
-                    //         Icon(
-                    //           isProfileExpanded
-                    //               ? Icons.expand_less
-                    //               : Icons.expand_more,
-                    //           color: Colors.white,
-                    //         ),
-                    //       ],
-                    //     ),
-                    //   ),
-                    // ),
-                    // CoolguyProfile(isVisible: isProfileExpanded),
                     SizedBox(height: 20),
                     GestureDetector(
                       onTap: () {},
@@ -751,7 +717,7 @@ class _CoolguyScreenAState extends State<CoolguyScreenA> {
                           'Snowyoon님의 이상형 카드(필요할까??)',
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 14,
+                            fontSize: 12,
                             fontWeight: FontWeight.w600,
                           ),
                         ),
@@ -806,7 +772,12 @@ class _CoolguyScreenLastState extends State<CoolguyScreenLast> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("시원이 설윤의 답변을 볼 때의 화면")),
+      appBar: AppBar(
+        title: Text(
+          "시원이 설윤의 답변을 볼 때의 화면",
+          style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+        ),
+      ),
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
@@ -853,15 +824,13 @@ class _CoolguyScreenLastState extends State<CoolguyScreenLast> {
                         ProfileChip(label: '열정적인'),
                         SizedBox(width: 5),
                         ProfileChip(label: '워커홀릭'),
-                        SizedBox(width: 5),
-                        ProfileChip(label: '즐길 줄 아는'),
                       ],
                     ),
                     Row(
                       children: [
                         ProfileChip(label: '마른 체형'),
                         SizedBox(width: 5),
-                        ProfileChip(label: '열정적인'),
+                        ProfileChip(label: '즐길 줄 아는'),
                         SizedBox(width: 5),
                         ProfileChip(label: 'ISTP'),
                       ],
@@ -926,7 +895,7 @@ class _CoolguyScreenLastState extends State<CoolguyScreenLast> {
                               'Snowyoon님에게 보이는 나의 프로필',
                               style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 14,
+                                fontSize: 12,
                                 fontWeight: FontWeight.w600,
                               ),
                             ),
@@ -1130,7 +1099,7 @@ class _CoolguyScreenLastState extends State<CoolguyScreenLast> {
                           'Snowyoon님의 이상형 카드(필요할까??)',
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 14,
+                            fontSize: 12,
                             fontWeight: FontWeight.w600,
                           ),
                         ),
