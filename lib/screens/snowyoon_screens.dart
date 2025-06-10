@@ -410,7 +410,7 @@ class _SnowyoonScreenAState extends State<SnowyoonScreenA> {
                     SnowyoonProfile(isVisible: isProfileExpanded),
                     SizedBox(height: 20),
                     Text(
-                      'Q1. 어떤 걸 전공하세요?',
+                      'Q1. 어떤 걸 전공하셨어요?',
                       style: TextStyle(
                         color: Colors.blue,
                         fontWeight: FontWeight.w600,

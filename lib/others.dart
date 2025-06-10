@@ -388,7 +388,7 @@ class SnowyoonProfileLast extends StatelessWidget {
                 ),
                 SizedBox(height: 20),
                 Text(
-                  'Q1. 어떤 걸 전공하세요?',
+                  'Q1. 어떤 걸 전공하셨어요?',
                   style: TextStyle(
                     color: Colors.blue,
                     fontWeight: FontWeight.w600,
@@ -416,7 +416,7 @@ class SnowyoonProfileLast extends StatelessWidget {
                           vertical: MediaQuery.of(context).size.width * 0.05,
                         ),
                         child: Text(
-                          '한국무용을 배우고 있어요. 전통적인 동작 하나하나에 담긴 이야기를 표현하는 게 신기하고 재미있더라고요.',
+                          '한국무용을 배웠어요. 전통적인 동작 하나하나에 담긴 이야기를 표현하는 게 신기하고 재미있었어요.',
                           style: TextStyle(
                             color: Colors.pink,
                             fontSize: MediaQuery.of(context).size.width * 0.035,
